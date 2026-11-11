@@ -301,7 +301,7 @@ task.spawn(function()
 	local cb = Instance.new("BindableFunction")
 	cb.OnInvoke = function(btn)
 		if btn == "Discord Profile" then
-			local link = "https://discord.com/users/798692960325730315"
+			local link = "https://discord.com/users/1528740132717334563"
 			if setclipboard then
 				setclipboard(link)
 			elseif toclipboard then
@@ -320,7 +320,7 @@ end)
 	pcall(function()
 		game:GetService("StarterGui"):SetCore("SendNotification", {
 			Title = "original source from @nahw",
-			Text = "updated by glushed",
+			Text = "updated by Nox",
 			Icon = "rbxthumb://type=AvatarHeadShot&id=" .. uid .. "&w=150&h=150",
 			Duration = 8,
 			Button1 = "Discord Profile",
