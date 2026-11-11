@@ -295,7 +295,7 @@ end)
 task.spawn(function()
 	local uid = 1
 	pcall(function()
-		uid = players:GetUserIdFromNameAsync("glushed")
+		uid = players:GetUserIdFromNameAsync("Ockonner")
 	end)
 
 	local cb = Instance.new("BindableFunction")
@@ -319,12 +319,12 @@ pcall(function()
 end)
 	pcall(function()
 		game:GetService("StarterGui"):SetCore("SendNotification", {
-			Title = "original source from @nahw",
+			Title = "original source from @Nox",
 			Text = "updated by Nox",
 			Icon = "rbxthumb://type=AvatarHeadShot&id=" .. uid .. "&w=150&h=150",
 			Duration = 8,
 			Button1 = "Discord Profile",
-			Button2 = "Fuck off",
+			Button2 = "bz tmr gros fdp",
 			Callback = cb,
 		})
 	end)
